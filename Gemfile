@@ -47,3 +47,4 @@ end
 gem 'twitter-bootstrap-rails', '3.2.2'
 gem 'font-awesome-rails'
 gem 'simple_form'
+gem 'devise'
