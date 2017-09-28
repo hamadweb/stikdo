@@ -42,18 +42,17 @@ group :development, :test do
   gem 'byebug'
 end
 
-group :development do 
+group :production do 
 		gem 'rails_12factor'
-	gem 'pg'
+		gem 'pg'
+	
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'
-
- 
-
 end
+
+
 gem 'twitter-bootstrap-rails', '3.2.2'
 gem 'font-awesome-rails'
 gem 'simple_form'
 gem 'devise'
-
 gem "auto_html", '1.6.4'
